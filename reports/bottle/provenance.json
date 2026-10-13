@@ -1,0 +1,19 @@
+{
+  "dataset": "MVTec AD bottle",
+  "original_source": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad",
+  "archive_mirror": "https://huggingface.co/datasets/XavierZXY/MvT-tar/resolve/main/bottle.tar.xz",
+  "archive_sha256": "726512129cb3b1f47d4f6cd7c7fc9170db7fc209132249c788fec06029cb5dc3",
+  "license": "CC BY-NC-SA 4.0",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "sklearn": "1.8.0",
+    "scipy": "1.17.0",
+    "PIL": "12.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "shared_image_hashes_between_splits": 0,
+  "configuration_selected_before_test": true
+}

@@ -1,0 +1,1 @@
+{"seed": 42, "input_size": 256, "calibration_fraction": 0.2, "regularization": 0.01, "alpha": 0.05, "score_top_fraction": 0.01, "smoothing_sigma": 4, "batch_size": 16, "threads": 4, "backbone": "ResNet18 IMAGENET1K_V1", "features": "layer1 pooled to layer2 plus layer2 (192 channels)"}

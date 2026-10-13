@@ -1,0 +1,26 @@
+[
+  {
+    "path": "test/good/006.png",
+    "correct": false
+  },
+  {
+    "path": "test/good/015.png",
+    "correct": false
+  },
+  {
+    "path": "test/broken_large/011.png",
+    "correct": true
+  },
+  {
+    "path": "test/broken_small/007.png",
+    "correct": true
+  },
+  {
+    "path": "test/contamination/019.png",
+    "correct": true
+  },
+  {
+    "path": "test/good/019.png",
+    "correct": true
+  }
+]

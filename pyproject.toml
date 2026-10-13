@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-anomaly-detection"
+version = "1.0.0"
+description = "Normal-only visual inspection with spatial Gaussian feature statistics"
+requires-python = ">=3.12"
+dependencies = ["torch==2.14.1", "torchvision==0.29.1", "numpy==2.3.5", "scikit-learn==1.8.0", "scipy==1.17.0", "Pillow==12.3.0", "matplotlib==3.10.8"]
+
+[project.optional-dependencies]
+dev = ["ruff==0.17.0"]
+notebook = ["nbformat==5.11.1", "jupyterlab>=4,<5"]
+
+[project.scripts]
+inspect-bottles = "inspection.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
